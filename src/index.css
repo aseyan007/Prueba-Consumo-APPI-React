@@ -1,0 +1,76 @@
+body {
+  margin: 0;
+  background-color: rgb(217, 220, 218);
+  border: solid white 10px;
+  min-height: 100vmin;
+}
+
+.cabecera {
+  background-color: rgb(196, 41, 41);
+  height: 120px;
+  color: white;
+  font-family: Lusitana, Georgia, serif;
+  border-top: solid white 0.5rem;
+  border-bottom: solid white 1rem;
+}
+
+.imagenHeader {
+  width: 2em;
+}
+
+.textoCabecera {
+  color: white;
+  font-size: 4rem;
+  text-align: center;
+  width: 100%;
+  text-shadow: rgb(161, 118, 118) 5px 5px;
+}
+
+.formulario {
+  width: 50%;
+  margin: auto;
+  margin-top: 5px;
+}
+
+.seleccion {
+  width: 50%;
+  margin: auto;
+  margin-top: 50px;
+}
+
+.lista {
+  display: flex;
+  justify-content: space-around;
+
+  flex-wrap: wrap;
+  /* display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  justify-items: center; */
+}
+
+.enlace {
+  text-decoration: none;
+  color: black;
+}
+
+.elementoLista {
+  display: flex;
+  flex-direction: column;
+  margin: 1.5rem;
+  margin-top: 20px;
+  font-size: small;
+  font-family: Lusitana, Georgia, serif;
+  text-decoration: none;
+  align-items: center;
+}
+
+.imagen {
+  width: 150px;
+  height: 150px;
+}
+
+.imagenCentral {
+  width: 30rem;
+  margin-bottom: 2em;
+  margin-top: 2em;
+}
